@@ -1,0 +1,27 @@
+digraph BST {
+      
+         nodesep=0.4; 
+         ranksep=0.5;
+          //rankdir=LR;
+        node [shape=record,color=black];
+        A [label="<left> | <data> 10 | <right>" ]
+        B [label="<left> | <data> 8 | <right>" ]
+        C [label="<left> | <data> 12 | <right>" ]
+        D [label="<left> | <data> 7 | <right>" ]
+        E [label="<left> | <data> 9 | <right>" ]
+        F [label="<left> | <data> 13 | <right>" ]
+        G [label="<left> | <data> 11 | <right>" ]
+
+
+      
+        A:left:c -> B:data [arrowhead=vee, arrowtail=dot,color=red, dir=both, tailclip=false];
+        A:right:c -> C:data [arrowhead=vee, arrowtail=dot,color=red, dir=both, tailclip=false];
+        B:right:c -> E:data [arrowhead=vee, arrowtail=dot,color=red, dir=both, tailclip=false];
+        B:left:c -> D:data [arrowhead=vee, arrowtail=dot,color=red, dir=both, tailclip=false];
+        C:left:c -> G:data [arrowhead=vee, arrowtail=dot, color=red,dir=both, tailclip=false];
+        C:right:c -> F:data [arrowhead=vee, arrowtail=dot,color=red, dir=both, tailclip=false];
+
+
+
+
+}
