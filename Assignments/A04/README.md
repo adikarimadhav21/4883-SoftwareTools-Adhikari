@@ -1,5 +1,5 @@
 
-## A02 - Software Tool - Name
+## A04 - Binary Searh Tree using Graphviz
 ### Madhav Adhikari
 ### Description:
 Created a binary search tree using graphviz that contains seven nodes and used a record as its shape.
