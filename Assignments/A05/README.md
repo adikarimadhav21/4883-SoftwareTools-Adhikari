@@ -2,7 +2,7 @@
 ## A05 - Binary Searh Tree using Graphviz
 ### Madhav Adhikari
 ### Description:
-We used a tool like the following: http://mcdemarco.net/tools/family-tree-generator/lineage.html to generate our own unique family tree and clean it by using random names and ages.Then I  will do followong steps to make family tree of this data.
+We used a tool like the following: http://mcdemarco.net/tools/family-tree-generator/lineage.html to generate our own unique family tree and clean it by using random names and ages.Then I  will do followong steps to make family tree of this data ( I took the help from ChatCPT and https://medium.com/@ahsenparwez/building-a-family-tree-with-python-and-graphviz-e4afb8367316 this side as well )
 
 - Read family_tree_data.csv  data using pandas which help to generate datframe of each row of csv
 - sort the data by generation; find the oldest patriarch or matriarch  and its on the top of data  frane
