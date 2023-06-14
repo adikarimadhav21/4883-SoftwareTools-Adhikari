@@ -31,6 +31,7 @@ We used a tool like the following: http://mcdemarco.net/tools/family-tree-genera
 |   6  | family_tree_dot_generator_alternative.py      | file that holds python code to generate dot files (  alternative method)    |
 |   7  | family_tree_alternative.dot      | file that holds dot files of family tree  (  alternative method)  |
 |   8   | family_tree_alternative.svg      | file that holds image of family tree  (  alternative method)  |
+|   9  |  clean_data.py     | file that used to clean data  |
 
 
 
