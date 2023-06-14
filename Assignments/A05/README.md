@@ -1,5 +1,5 @@
 
-## A05 - Binary Searh Tree using Graphviz
+## A05 - Family Tree using Graphviz
 ### Madhav Adhikari
 ### Description:
 We used a tool like the following: http://mcdemarco.net/tools/family-tree-generator/lineage.html to generate our own unique family tree and clean it by using random names and ages.Then I  will do followong steps to make family tree of this data
