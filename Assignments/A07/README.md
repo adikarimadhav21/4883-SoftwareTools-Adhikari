@@ -12,17 +12,22 @@ range from 1 to 12 for  month, range from 1 to 32 for day , range from 2000 to 2
 - Use BS4 to parse the data and pull out the requested data.
 - Finally, use PySimpleGui tabular view to display the data received from the initial request.
 
+
 ### Sample input and output
 -  Select airport : KDFW, month:6, day:19, year:2023 and filter: daily then sumbit the form and following output will be displayed.
-![sample_input_1](Assignments\A07\sample_output_1.png)
+
+![sample_input_1](sample_output_1.png)
+![Sample_output_1](sample_output_2.png)
 
 -  Select airport : RJBB, month:6, day:19, year:2023 and filter: weekly then sumbit the form and following output will be displayed.
-![sample_input_1](Assignments\A07\sample_output_1.png)
+
+![sample_input_2](sample_output_3.png)
+![Sample_output_2](sample_output_4.png)
 
 -  Select airport : KDFW, month:4, day:18, year:2015 and filter: monlthy then sumbit the form and following output will be displayed.
-![sample_input_1](Assignments\A07\sample_output_1.png)
 
-
+![sample_input_3](sample_output_5.png)
+![Sample_output_3](sample_output_6.png)
 
 
 
@@ -30,7 +35,7 @@ range from 1 to 12 for  month, range from 1 to 32 for day , range from 2000 to 2
 
 |   #   | File            | Description                                        |
 | :---: | --------------- | -------------------------------------------------- |
-|   1   | airports.json        | file that airport code ,city and country   |
+|   1   | airports.json        | file that holds airport code ,city and country   |
 |   2   | input_form.py      | file that holds code for input GUI    |
 |   3   | display_form.py      | file that holds code for output GUI   |
 |   4   | main.py      | main driver file which inititate to run program    |
