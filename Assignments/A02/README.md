@@ -5,16 +5,13 @@
 
  I will update here after approval and discuusion with Professor 
 
-### Files
+ Topices : Postman (https://www.postman.com/) or Regular Expression 
 
-|   #   | File            | Description                                        |
-| :---: | --------------- | -------------------------------------------------- |
-|   1   | banner.txt         | file that holds banner    |
 
 
 ### Instructions
 
-- Make sure you install Open VSCode Extensions:
+- None for now 
 
 
 ### Example Command:
