@@ -1,0 +1,16 @@
+[
+  {
+    "name": "Demo_repo",
+    "description": "This is your first demo repo!",
+    "homepage": "https://github.com",
+    "private": true,
+    "is_template": true
+  },
+  {
+    "name": "Demo_repo_1",
+    "description": "This is your second demo repo!",
+    "homepage": "https://github.com",
+    "private": true,
+    "is_template": true
+  }
+]
