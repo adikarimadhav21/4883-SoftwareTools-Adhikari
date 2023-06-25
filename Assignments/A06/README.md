@@ -86,10 +86,10 @@ Postman is a  platform for API Development Testing Management.
 
 Walkthrough :
 
-## Workspace :
+### Workspace :
 In Postman, a workspace is a collaborative environment where you can organize and manage API-related resources such as collections, environments, and documentation. Workspaces allow teams to work together, share resources, and maintain a structured approach to API development and testing
 
-## Request and Response :
+### Request and Response :
 Get :
 
 ![Alt text](get_user.png)
@@ -100,22 +100,22 @@ Post :
 
 ![Alt text](post.png)
 
-## Collection:
+### Collection:
 Collection is a container that holds a group of API requests. It helps you organize and manage your API endpoints (folder), allowing for efficient testing, documentation, and collaboration.
 
 ![Alt text](collection.png)
 
 
-## Enviroment :
+### Enviroment :
 Environment is a way to manage variables used in API requests. It allows you to define different configurations such as base URLs, authentication tokens,user name, password headers for development, staging, QC, SandBox, UAT and production environments, making it easier to switch between them and maintain consistent testing and documentation.
 
 ![Alt text](env.png)
 
 
-## Variable :
+### Variable :
 Postman variables are placeholders used to store and reuse dynamic values in API requests and scripts. They allow for flexibility, customization, and reusability of requests. Variables can be global, environment-specific, collection , data driven or local to a request. They are represented using double curly braces ({{variable_name}}) and can be used in various parts of a request. Variables provide scoping and inheritance, dynamic updates, and can be managed within Postman's user interface. 
 
-## Authorization : 
+### Authorization : 
 
 It is used ro verify the identity.Select the appropriate method (API Key,Basic Authentication, Bearer Token,OAuth 2.0, Digest Authentication) based on your API's authentication requirements, and configure the necessary details within Postman.
 
@@ -128,7 +128,7 @@ Step 4 - Save & Run
 
 ![Auth](auth.png)
 
-## Test script  :
+### Test script  :
 
 You can add JavaScript code to execute during two events in the flow:
 
@@ -223,7 +223,7 @@ A host with 16 CPU cores and 32 GB RAM can simulate up to 500 virtual users
 Postman recommends running a small test with 10 to 20 virtual users and observing system resource usage. You can use this information to estimate that maximum number of virtual users that can be simulated for your collection and host computer.
 ![Alt text](performance.png)
 
-## Test Automation :
+### Test Automation :
 
 Schedule runs : Periodically run collection at a specified time on the Postman Cloud
 
@@ -255,7 +255,7 @@ Postman provides a feature called "API documentation" that allows you to create,
 
 ![Alt text](doc.png)
 
-## Cookies :
+### Cookies :
 
 HTTP cookies are small pieces of data stored on the client-side (e.g., web browser) by websites. They are commonly used to track user sessions, store user preferences, and provide personalized experiences. When a client makes a request to a server, it includes the cookies associated with that domain, allowing the server to identify and authenticate the user.
 ostman, as an HTTP client tool, supports automatic handling of HTTP cookies. It stores cookies received in responses and includes them in subsequent requests to the same domain. You can manually add cookies to requests using the "Headers" tab in Postman. The "Cookies" tab allows you to inspect the cookies received in responses.
