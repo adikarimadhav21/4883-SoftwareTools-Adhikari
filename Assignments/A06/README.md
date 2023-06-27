@@ -33,8 +33,9 @@ An API acts as an interface that allows proper communication between two program
 
 - SOAP (SIMPLE OBJECT ACCESS PROTOCOL): It defines messages in XML format used by web applications to communicate with each other.
 - REST (Representational State Transfer): It makes use of HTTP to GET, POST, PUT, or DELETE data. 
-- JSON-RPC: It uses JSON for data transfer and is a lightweight remote procedural call defining a few data structure types.
+- JSON-RPC: It uses JSON for data transfer and is a lightweight remote procedural call defining a few data structure types  and are commonly used in distributed computing environments.remote procedure calls (RPC)
 - XML-RPC: It is based on XML and uses HTTP for data transfer. This API is widely used to exchange information between two or more networks.
+-  GraphQL APIs : type of API that uses the GraphQL query language for data retrieval and manipulation. With GraphQL APIs, clients can request specific data requirements and receive a structured response, giving them more control over the data they receive.
 
 ### HTTP methods and status code 
 
