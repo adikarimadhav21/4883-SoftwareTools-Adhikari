@@ -15,23 +15,31 @@ We used a tool like the following: http://mcdemarco.net/tools/family-tree-genera
 - Generated the dot files 
 - Preview dot file in dot language IDE then download the image of family tree 
 
+## Result
+
+<img src="family_tree.svg"  >
+
+
  
+
  I also tried alternative way to solve this problem as learning purpose by refrencing [Family tree](https://medium.com/@ahsenparwez/building-a-family-tree-with-python-and-graphviz-e4afb8367316) and it aslo generated good graph. The below alternative files keep as it for learning purpose :) 
- 
+
+ <img src="family_tree_alternative.svg">
+
 
 ### Files
 
 |   #   | File            | Description                                        |
 | :---: | --------------- | -------------------------------------------------- |
-|   1   | family_tree_data.csv       | file that data for family tree   |
-|   2  | family_tree_dot_generator.py      | file that holds python code to generate dot files    |
-|   3  | family_tree.dot      | file that holds dot files of family tree    |
-|   4   | family_tree.svg      | file that holds image of family tree    |
-|   5   | requirements.txt      | file that holds  list of dependencies    |
-|   6  | family_tree_dot_generator_alternative.py      | file that holds python code to generate dot files (  alternative method)    |
-|   7  | family_tree_alternative.dot      | file that holds dot files of family tree  (  alternative method)  |
-|   8   | family_tree_alternative.svg      | file that holds image of family tree  (  alternative method)  |
-|   9  |  clean_data.py     | file that used to clean data  |
+|   1   | [family_tree_data.csv](family_tree_data.csv )       | file that data for family tree   |
+|   2  |[ family_tree_dot_generator.py](family_tree_dot_generator.py )      | file that holds python code to generate dot files    |
+|   3  | [family_tree.dot](family_tree.dot)      | file that holds dot files of family tree    |
+|   4   | [family_tree.svg](family_tree.svg)     | file that holds image of family tree    |
+|   5   | [requirements.txt](requirements.txt)      | file that holds  list of dependencies    |
+|   6  | [family_tree_dot_generator_alternative.py](family_tree_dot_generator_alternative.py)     | file that holds python code to generate dot files (  alternative method)    |
+|   7  |[family_tree_alternative.dot](family_tree_alternative.dot)     | file that holds dot files of family tree  (  alternative method)  |
+|   8   | [family_tree_alternative.svg ](family_tree_alternative.svg)     | file that holds image of family tree  (  alternative method)  |
+|   9  |  [clean_data.py](clean_data.py)     | file that used to clean data  |
 
 
 

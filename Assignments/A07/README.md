@@ -1,6 +1,7 @@
 
 ## A07 - Web Scraping
 ### Madhav Adhikari
+
 ### Description:
 This project combined a python GUI with a beautiful soup web scraper from https://www.wunderground.com/history/daily/ to collect and  display the data. The initial python gui will be used to enter the appropriate values to allow you to leverage the URL, meaning it will accept values for: month, day, year, airport code, and one of the following: daily, weekly, monthly. The resulting python gui will display the received data in a tabular format.I have done following steps to do this project.
 
@@ -35,11 +36,11 @@ range from 1 to 12 for  month, range from 1 to 32 for day , range from 2000 to 2
 
 |   #   | File            | Description                                        |
 | :---: | --------------- | -------------------------------------------------- |
-|   1   | airports.json        | file that holds airport code ,city and country   |
-|   2   | input_form.py      | file that holds code for input GUI    |
-|   3   | display_form.py      | file that holds code for output GUI   |
-|   4   | main.py      | main driver file which inititate to run program    |
-|   5   | requirements.txt      | file that holds list of dependencies for this project   |
+|   1   | [airports.json](airports.json)      | file that holds airport code ,city and country   |
+|   2   | [input_form.py ](input_form.py)     | file that holds code for input GUI    |
+|   3   | [display_form.py](display_form.py)      | file that holds code for output GUI   |
+|   4   | [main.py](main.py)      | main driver file which inititate to run program    |
+|   5   | [requirements.txt](requirements.txt)     | file that holds list of dependencies for this project   |
 
 
 

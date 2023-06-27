@@ -10,8 +10,8 @@ Created a binary search tree using graphviz that contains seven nodes and used a
 
 |   #   | File            | Description                                        |
 | :---: | --------------- | -------------------------------------------------- |
-|   1   | bst.dot        | file that holds graphviz code    |
-|   1   | bst.svg       | file that holds image of Binary searh tree    |
+|   1   | [bst.dot  ](bst.dot)      | file that holds graphviz code    |
+|   2  | [bst.svg](bst.svg)     | file that holds image of Binary searh tree    |
 
 
 
