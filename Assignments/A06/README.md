@@ -256,6 +256,14 @@ Postman provides a feature called "API documentation" that allows you to create,
 
 ![Alt text](doc.png)
 
+
+### Postman Flows 
+
+Postman Flows is a visual tool to build API-driven applications.Flows are the ultimate way to easily take data from an API-enabled product, manipulate it to meet your needs, and see the results. Or you could take data from one API-enabled product, make decisions or process the data, then send it to another API-enabled product. This means you can build real-time integrations between two API-enabled products.
+
+![Alt text](flow.png)
+
+
 ### Cookies :
 
 HTTP cookies are small pieces of data stored on the client-side (e.g., web browser) by websites. They are commonly used to track user sessions, store user preferences, and provide personalized experiences. When a client makes a request to a server, it includes the cookies associated with that domain, allowing the server to identify and authenticate the user.
