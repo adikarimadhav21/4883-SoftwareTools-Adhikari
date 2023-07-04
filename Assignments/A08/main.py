@@ -381,12 +381,12 @@ def get_country_with_min_deaths(min_date: str = None, max_date: str = None):
 @app.get("/avg_deaths")
 def get_average_deaths():
     """
-    This method will retrieves the average number of deaths between all countries
+    This method will retrieves the average number of deaths between all countries and each country average death as well
     - **Params:**
       - None
     
     - **Returns:**
-      - (float) : the average number of deaths between all countries
+      - (float) : the average number of deaths between all countries and  each country average death as well
 
     #### Request Url Example:
 
@@ -396,9 +396,10 @@ def get_average_deaths():
     
         {
             "overall_death_average":{
-                "overall_cumulative_deaths":1127152,
-                "countries_count":237,
-                "average_deaths":"4755.9156118143455"
+                   "overall_cumulative_deaths": 1127152,
+                    "overall_cumulative_cases": 103436829,
+                    "countries_count": 237,
+                    "overall_average_deaths": "0.010897008453343054"
             },
             "average_deaths_per_country":{
                 "Afghanistan":{
@@ -419,12 +420,14 @@ def get_average_deaths():
     try:
         unique_countries = data["Country"].nunique()
         max_cumulative_deaths = data["Cumulative_deaths"].max()
-        average_deaths = max_cumulative_deaths / unique_countries
+        max_cumulative_cases = data["Cumulative_cases"].max()
+        average_deaths = max_cumulative_deaths / max_cumulative_cases
 
         overal_death= {
             "overall_cumulative_deaths": int(max_cumulative_deaths),
+            "overall_cumulative_cases": int(max_cumulative_cases),
             "countries_count":unique_countries,
-            "average_deaths": str(average_deaths)
+            "overall_average_deaths": str(average_deaths)
         }
         ## find maxium cases and death per country 
         max_cumulative_cases_per_country = data.groupby("Country")["Cumulative_cases"].max().reset_index()

@@ -9,6 +9,9 @@ This project will create a RESTful API using FastAPI that provides access to COV
 - Route: /
   
   This is a root url (http://127.0.0.1:8000/) of api which is redired to /doc that is used to retrieves the documentation provided by swagger.
+
+  ![Alt text](document.png)
+  
 - Route: /countries
     
   This method will retrieves a list of unique countries
@@ -254,12 +257,13 @@ This method will return a total new cases count or can be filtered by country or
      ```   
 - Route: /avg_deaths
   
-  This method will retrieves the average number of deaths between all countries
+  This method will retrieves the average number of deaths between all countries and each country average death as well.
+  Average death= total cumulative_deaths / total cumulative_cases (per country as well )
     - **Params:**
       - None
     
     - **Returns:**
-      - (int) : the average number of deaths between all countries
+      - (float) : the average number of deaths between all countries and each country average death as well
 
     #### Request Url Example:
 
@@ -269,9 +273,10 @@ This method will return a total new cases count or can be filtered by country or
     ```json 
           {
             "overall_death_average":{
-                "overall_cumulative_deaths":1127152,
-                "countries_count":237,
-                "average_deaths":"4755.9156118143455"
+                  "overall_cumulative_deaths": 1127152,
+                  "overall_cumulative_cases": 103436829,
+                  "countries_count": 237,
+                  "overall_average_deaths": "0.010897008453343054"
             },
             "average_deaths_per_country":{
                 "Afghanistan":{
