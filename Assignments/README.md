@@ -7,5 +7,6 @@
 |    03 |  [A05](https://github.com/adikarimadhav21/4883-SoftwareTools-Adhikari/tree/main/Assignments/A05)| FamilyTree via Graphviz| 
 |    04 |  [A07](https://github.com/adikarimadhav21/4883-SoftwareTools-Adhikari/tree/main/Assignments/A07)| Web Scraping| 
 |    05|  [A06](https://github.com/adikarimadhav21/4883-SoftwareTools-Adhikari/tree/main/Assignments/A06)| Software Tool (Postman) Presentation| 
+|    06|  [A08](https://github.com/adikarimadhav21/4883-SoftwareTools-Adhikari/tree/main/Assignments/A08)| Fast Api with Covid Data| 
                   
  
