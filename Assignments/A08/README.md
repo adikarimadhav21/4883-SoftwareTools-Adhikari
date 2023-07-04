@@ -72,101 +72,100 @@ This project will create a RESTful API using FastAPI that provides access to COV
 - Route: /deaths  or 
 - /deaths?country= \<country> or  
 - /deaths?region= \<region> or 
--  /deaths?country=\<country>&year=\<year> or 
--   /deaths?region=\<region>&year=\<year>
+- /deaths?country=\<country>&year=\<year> or 
+- /deaths?region=\<region>&year=\<year>
 
-This method will return a total death count or can be filtered by country or region or year.
+  This method will return a total death count or can be filtered by country or region or year.
 
-- **Params:**
-    - country (str) : A country name
-    - region (str) : A region name
-    - year (int) : A 4 digit year
-- **Returns:**
-    - (int) : The total sum based on filters (if any)
+    - **Params:**
+        - country (str) : A country name
+        - region (str) : A region name
+        - year (int) : A 4 digit year
+    - **Returns:**
+        - (int) : The total sum based on filters (if any)
 
-#### Request URL Example 1:
+    #### Request URL Example 1:
 
-[http://127.0.0.1:8000/deaths](http://127.0.0.1:8000/deaths)
+    [http://127.0.0.1:8000/deaths](http://127.0.0.1:8000/deaths)
 
-#### Response boady example 1:
-   ```json
-    {
-    "total_deaths": 6945714,
-    "params": {
-        "country": null,
-        "region": null,
-        "year": null
-    },
-    "success": true
-    }
-  ```  
-#### Request URL Example 2:
+    #### Response boady example 1:
+    ```json
+        {
+        "total_deaths": 6945714,
+        "params": {
+            "country": null,
+            "region": null,
+            "year": null
+        },
+        "success": true
+        }
+    ```  
+    #### Request URL Example 2:
 
-[http://127.0.0.1:8000/deaths?country=Nepal&year=2023](http://127.0.0.1:8000/deaths?country=Nepal&year=2023)
+    [http://127.0.0.1:8000/deaths?country=Nepal&year=2023](http://127.0.0.1:8000/deaths?country=Nepal&year=2023)
 
-#### Response boady example 2:
+    #### Response boady example 2:
 
-   ```json
-    {
-    "total_deaths": 12,
-    "params": {
-        "country": "Nepal",
-        "region": null,
-        "year": 2023
-    },
-    "success": true
-    }
-   ``` 
+    ```json
+        {
+        "total_deaths": 12,
+        "params": {
+            "country": "Nepal",
+            "region": null,
+            "year": 2023
+        },
+        "success": true
+        }
+    ``` 
 
 ### Case Routes
 - Route: /cases  or 
 - /cases?country= \<country> or  
 - /cases?region= \<region> or 
 - /cases?country=\<country>&year=\<year> or 
--  /cases?region=\<region>&year=\<year>
+-  /cases?region=\<region>&year=\<year>  
+  This method will return a total new cases count or can be filtered by country or region or year.
+    
+    - **Params:**
+        - country (str) : A country name
+        - region (str) : A region name
+        - year (int) : A 4 digit year
+    - **Returns:**
+        - (int) : The total sum based on filters (if any)
 
-This method will return a total new cases count or can be filtered by country or region or year.
+    #### Request URL Example 1:
 
-- **Params:**
-    - country (str) : A country name
-    - region (str) : A region name
-    - year (int) : A 4 digit year
-- **Returns:**
-    - (int) : The total sum based on filters (if any)
+    [http://127.0.0.1:8000/cases](http://127.0.0.1:8000/cases)
 
-#### Request URL Example 1:
+    #### Response boady example 1:
+    ```json
+        {
+        "total_cases": 768187096,
+        "params": {
+            "country": null,
+            "region": null,
+            "year": null
+        },
+        "success": true
+        }
+    ``` 
+    #### Request URL Example 2:
 
-[http://127.0.0.1:8000/cases](http://127.0.0.1:8000/cases)
+    [http://127.0.0.1:8000/cases?country=Nepal&year=2023](http://127.0.0.1:8000/cases?country=Nepal&year=2023)
 
-#### Response boady example 1:
-   ```json
-    {
-    "total_cases": 768187096,
-    "params": {
-        "country": null,
-        "region": null,
-        "year": null
-    },
-    "success": true
-    }
-   ``` 
-#### Request URL Example 2:
+    #### Response boady example 2:
 
-[http://127.0.0.1:8000/cases?country=Nepal&year=2023](http://127.0.0.1:8000/cases?country=Nepal&year=2023)
-
-#### Response boady example 2:
-
-   ```json 
-   {
-    "total_cases": 2361,
-    "params": {
-        "country": "Nepal",
-        "region": null,
-        "year": 2023
-    },
-    "success": true
-    }
-   ```
+    ```json 
+      {
+        "total_cases": 2361,
+        "params": {
+            "country": "Nepal",
+            "region": null,
+            "year": 2023
+        },
+        "success": true
+        }
+    ```
 
 ### Aggregate Routes
 - Route: /max_deaths or Route: /max_deaths?min_date=\<date>&max_date=\<date>
